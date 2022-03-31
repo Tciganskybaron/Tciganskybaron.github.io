@@ -1,0 +1,190 @@
+body {
+  background: rgb(247, 247, 242);
+  height: 10%;
+}
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex-row {
+  display: flex;  
+  width: 500px;
+  }
+   
+
+
+  .flex-row .box{
+    margin: 0.5em;
+    border: 1px;
+    width: 600px;
+  }
+  
+  .flex-row .box-1 {
+    flex-grow: 4;
+  }
+  
+  .flex-row .box-2 {
+    flex-grow: 4;
+    margin-left: 200px;
+  }
+
+
+
+
+  .line {
+    display: flex;  
+    height: 512px;
+    }
+
+    .line .logo1 {
+      flex-grow: 0;
+      margin-top: 10px;
+    }
+    
+    .line .post2 {
+      flex-grow: 4;
+      margin-left: 10px;
+      margin-top: 10px;
+
+    }
+
+
+
+    .line2 {
+      display: flex;  
+      height: 512px;
+      }
+  
+      .line .logo2  {
+        flex-grow: 0;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      
+      .line .post3 {
+        flex-grow: 4;
+        margin-left: 10px;
+        margin-top: 10px;
+  
+      }
+
+      .line3 {
+        display: flex;  
+        height: 87px;
+        }
+
+
+
+
+
+.logo {
+  width: 384px;
+  height: 512px;
+  border-radius: 30px;
+
+}
+
+
+.logo1 {
+  width: 384px;
+  height: 512px;
+  border-radius: 30px;
+}
+
+.logo2 {
+  
+  width: 384px;
+  height: 512px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.logo3 {
+  
+  width: 384px;
+  height: 512px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+.logo4 {
+  width: 384px;
+  height: 512px;
+  border-radius: 30px;
+  margin-top: 40px;
+
+}
+
+.post {
+ width: 800px;
+}
+.post1{
+ position: absolute;
+ width: 1300px;
+ height: 87px;
+ background-color: rgb(196, 225, 248);
+ border: 3px;
+ border-radius: 30px;
+ text-align: center;
+ top: 535px;
+}
+.post2{
+  width: 900px;
+  height: 512px;
+  background-color: rgb(181, 219, 250);
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+
+ }
+
+ .post3{
+  width: 900px;
+  height: 512px;
+  background-color: rgb(151, 205, 250);
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 20px;
+ }
+
+ .post4{
+
+  width: 900px;
+  height: 512px;
+  background-color: rgb(127, 193, 247);
+  z-index: 1;
+  border-radius: 40px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 30px;
+ }
+
+ .post5{
+
+  width: 900px;
+  height: 512px;
+  background-color: rgb(103, 182, 247);
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 40px;
+ }
+
+ .post6{
+  margin-top: 50px;
+  width: 1300px;
+  height: 150px;
+  background-color: rgb(76, 168, 243);
+  top: 2735px;
+  border: 3px;
+  left: 10px;
+  z-index: 1;
+  border-radius: 30px;
+  text-align: center;
+ }
+
+
+
+ 
